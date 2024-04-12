@@ -29,6 +29,7 @@ jobs:
       run: |
         echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
         docker push kaur_manveer_coding_assignment14
- # Add a step to build Storybook
+
+    # Add a step to build Storybook
     - name: Build Storybook
       run: npm run storybook:build
