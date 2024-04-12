@@ -1,3 +1,4 @@
+// App.js
 import React, { useState } from 'react';
 import BasicInfo from './BasicInfo';
 import Work from './Work';
@@ -31,6 +32,9 @@ function App() {
           </li>
           <li>
             <button onClick={() => handleNavigation('Resources')}>Resources</button>
+          </li>
+          <li>
+            <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">Learn React</a>
           </li>
         </ul>
       </nav>
